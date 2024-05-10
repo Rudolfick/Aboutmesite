@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #222629;
+}
+@media (max-width: 431px){
+    main div {
+        width: 100%;
+        
+    }
+    header {
+        font-size: xx-large;
+        margin-top: 2%;
+    }
+    div {
+        margin-top: 2%;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    footer div {
+        width: 100%;
+        border-left: 0px;
+        border-right: 0px;
+    }
+}
+@media (max-width: 800px ) and  (min-width: 431px) {
+    main div {
+        width: 50%;
+    }
+    footer div {
+        width: 50%;
+    }
+}
+@media (min-width: 2000px) {
+    body {
+        font-size: x-large;
+    }
+}
+header{
+    margin-top: 0.5%;
+    color: #F9AA33;
+    font-size: x-large;
+    text-decoration: none;
+    text-align: center;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div {
+    margin-top: 0.5%;
+    border: 1px solid #808080;
+    color: #F0F0F0;
+    padding: 0.2%;
+    width: 20%;
+    border-radius: 6px;
+    font-size: 23px;
+}
+h2 {
+    color: #F0F0F0;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer div {
+    text-align: center;
+}
+footer h2 {
+    margin-top: 1%;
+}
+footer img {
+    width: 15%;
+}
